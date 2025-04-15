@@ -1,30 +1,30 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
-  language: 'en-us',
+  title: 'Billy的个人博客',
+  author: 'Billy',
+  headerTitle: 'Billy Blog',
+  description: '分享技术、生活和创意的个人空间',
+  language: 'zh-CN',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  // mastodon: 'https://mastodon.social/@mastodonuser',
+  email: 'billyxie23@outlook.com',
+  github: 'https://github.com/MrXie23',
+  x: 'https://x.com/jinhongxie',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
-  medium: 'https://medium.com',
-  bluesky: 'https://bsky.app/',
-  locale: 'en-US',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
+  linkedin: 'https://www.linkedin.com/in/%E9%87%91%E5%AE%8F-%E8%B0%A2-421572114/',
+  // threads: 'https://www.threads.net',
+  // instagram: 'https://www.instagram.com',
+  // medium: 'https://medium.com',
+  // bluesky: 'https://bsky.app/',
+  locale: 'zh-CN',
   // set to true if you want a navbar fixed to the top
-  stickyNav: false,
+  stickyNav: true,
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -59,7 +59,7 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    provider: '', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
@@ -81,7 +81,7 @@ const siteMetadata = {
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
       // This corresponds to the `data-lang="en"` in giscus's configurations
-      lang: 'en',
+      lang: 'zh-CN',
     },
   },
   search: {
