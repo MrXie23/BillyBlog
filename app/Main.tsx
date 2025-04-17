@@ -4,6 +4,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
 import Image from '@/components/Image'
+import SimpleChatWidget from '@/components/SimpleChatWidget'
 
 const MAX_DISPLAY = 5
 
@@ -126,6 +127,7 @@ export default function Home({ posts }) {
           <NewsletterForm />
         </div>
       )} */}
+      <SimpleChatWidget />
     </>
   )
 }

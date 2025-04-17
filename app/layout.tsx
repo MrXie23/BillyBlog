@@ -104,6 +104,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </SearchProvider>
             <Footer />
           </SectionContainer>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.difyChatbotConfig = {
+                  token: 'Lnbz5iSSgiFl1wus',
+                  baseUrl: 'https://www.billyxie.com'
+                }
+              `,
+            }}
+          />
+          <script src="https://www.billyxie.com/embed.min.js" id="Lnbz5iSSgiFl1wus" defer />
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `
+                #dify-chatbot-bubble-button {
+                  background-color: #1C64F2 !important;
+                }
+                #dify-chatbot-bubble-window {
+                  width: 24rem !important;
+                  height: 40rem !important;
+                }
+              `,
+            }}
+          />
         </ThemeProviders>
       </body>
     </html>
